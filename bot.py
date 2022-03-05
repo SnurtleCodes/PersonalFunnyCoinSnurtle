@@ -58,25 +58,25 @@ anfc = 0
 @client.command()
 async def alexfc(anum):
     global afc
-    afc = afc + int(anum)
+    afc += int(anum)
     await client.say("Alex has " + str(afc) + " funny coins")
 
 @client.command()
 async def muhfc(mnum):
     global mfc
-    mfc = mfc + int(mnum)
+    mfc += int(mnum)
     await client.say("Muhammad has " + str(mfc) + " funny coins")
 
 @client.command()
 async def chrisfc(cnum):
     global cfc
-    cfc = cfc+ int(cnum)
+    cfc += int(cnum)
     await client.say("Chris has " + str(cfc) + " funny coins")
 
 @client.command()
 async def antfc(anthnum):
     global anfc
-    anfc = anfc + int(anthnum)
+    anfc += int(anthnum)
     await client.say("Anthony has " + str(anfc) + " funny coins")
 
     
