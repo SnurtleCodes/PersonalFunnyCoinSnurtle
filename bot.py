@@ -7,13 +7,14 @@ import requests
 import os
 
 
-
+#Discord Tech Stuff
 BOT_PREFIX = ("!")
 
 
 client = discord.Client()
 client = Bot(command_prefix=BOT_PREFIX)
 
+#Functions of the Funny Coin
 @client.command()
 async def wasitfunny():
     possible_responses = [
@@ -49,6 +50,7 @@ async def isitironic(irony_subjects):
         ]
     await client.say(random.choice(irony_responses))
 
+#Alex, Me, Chris, Anthony Coins, Want to add system that has coins for everyone and you can make a like profile for coins
 afc = 0
 mfc = 0
 cfc = 0
