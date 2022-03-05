@@ -9,7 +9,7 @@ import os
 
 
 BOT_PREFIX = ("!")
-TOKEN = 'NTk1NzUwNjAzNjUzNzc1Mzkz.XRviFw.9F_Lohwz4sRccgS8Gp9YQl9lshw'
+
 
 client = discord.Client()
 client = Bot(command_prefix=BOT_PREFIX)
